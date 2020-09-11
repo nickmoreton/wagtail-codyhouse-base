@@ -7,9 +7,6 @@ Run ./startup.sh
 delete startup.sh
 
 # Start Coding
-
-  source the vitual env
-
-  ./manage.py runserver
-
-  npm run gulp watch
+source the vitual env
+./manage.py runserver
+npm run gulp watch
