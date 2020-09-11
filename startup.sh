@@ -6,8 +6,8 @@ wget https://github.com/CodyHouse/codyhouse-framework/archive/master.zip && unzi
 &&  cd codyhouse-framework-master \
 && rm .gitignore && rm gulpfile.js && rm LICENSE.md && rm README.md \
 && mkdir main/assets/js/components \
-&& cd .. && mv main _frontend \
-&& mv codyhouse-framework-master/** . \
+&& cd .. \
+&& mv codyhouse-framework-master/** . && mv main _frontend \
 && rm -R codyhouse-framework-master \
 && rm master.zip \
 
