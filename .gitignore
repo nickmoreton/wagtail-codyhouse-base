@@ -133,3 +133,4 @@ package-lock.json
 local.py
 /static/
 /media/
+node_modules
