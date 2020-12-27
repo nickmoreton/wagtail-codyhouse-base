@@ -1,14 +1,35 @@
 # wagtail-codyhouse-base
 
-Run ./startup.sh
+Download Codyframe
 
-# when finished
+```
+./frontend.sh
+npm install
+```
 
-delete startup.sh
+## Virtual Env
+```
+pipenv shell
+```
 
-# Start Coding
-source the vitual env
+## Install wagtail
+```
+pip install wagtail
+wagtail start config .
+./manage.py migrate
+./manange.py createsuperuser
+```
 
-./manage.py runserver
+## Requirements
+```
+pip freeze > requirements.txt
+```
 
-npm run gulp watch
+## Tidy up
+```
+rm LICENSE
+rm README.md
+rm .dockerignore
+rm Dockerfile
+rm fontend.sh
+```
