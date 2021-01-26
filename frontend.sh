@@ -9,3 +9,4 @@ wget https://github.com/CodyHouse/codyhouse-framework/archive/master.zip && unzi
 && mv codyhouse-framework-master/** . && mv main _frontend \
 && rm -R codyhouse-framework-master \
 && rm master.zip \
+&& rm .dockerignore && rm Dockerfile && rm frontend.sh
